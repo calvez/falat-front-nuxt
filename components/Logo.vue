@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto">
+  <div class="">
     <img class="object-contain h-48 w-96" src="../assets/img/falatozzhu_logo_szines_v2.svg" />
   </div>
 </template>

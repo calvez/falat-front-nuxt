@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'falat-front-nuxt',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'hu'
     },
     meta: [
       { charset: 'utf-8' },
@@ -12,17 +12,25 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },      
+      
     ]
   },
-
+  modal: {
+    pluginName: "modal", // name plugin 
+    layout: "default", // layout desktop
+    mobileLayout: "defaultMobile", // layout mobile
+    mobileSize: 400, // mobile or desktop window size
+    responsive: false,
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
+ plugins: [
+  
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
